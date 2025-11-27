@@ -1,0 +1,274 @@
+/*global styles*/
+*{
+    background-color: rgb(blue, white, purple);
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, blinkMacSystemFont, 'segoe UI', roboto, Oxy;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container{
+    padding: 0 20px;
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+.navbar{
+    background-color: #00d1b9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.button {
+    padding: 10px 20px;
+    border-radius: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 40px;
+    color: white;
+}
+.patner {
+    background-color: purple;
+}
+.hire {
+    background-color: purple;
+    
+}
+.explore {
+    background-color: purple;
+}
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+.courses-section {
+    text-align: center;
+    padding: 40px 50px;
+}
+
+.subtitle {
+    color: #36c0cb;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #501c70;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    width: 360px;
+    text-align: left;
+}
+
+.course-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.course-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #501c70;
+    margin-top: 20px;
+}
+
+.course-text {
+    margin: 15px 0 25px;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.learn-btn {
+    background: #c9e565;
+    color: #333;
+    border: none;
+    padding: 14px 24px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.learn-btn:hover {
+    background: #b1d84e;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 25px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+.hero-section{
+    display: flex;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_ovth244c_3yAI9I_NpRpxdfqaztfkNMdw&s");
+    min-height: 80vh;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-image, .right-image {
+  width: 50%;
+}
+
+.left-image img, .right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Explore {
+  padding: 20px;
+  background-color: #f7f7f7;
+
+}
+
+
+/* FOOTER SECTION */
+.footer {
+    background: linear-gradient(135deg, #2a0d47, #591a7a);
+    color: white;
+    padding: 60px 80px 30px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* COLUMN STYLES */
+.footer-column {
+    width: 22%;
+    min-width: 230px;
+}
+
+.footer-logo {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.footer-desc {
+    font-size: 18px;
+    line-height: 1.5;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+/* SOCIAL ICONS */
+.social-icons img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.accessibility-icon {
+    width: 70px;
+    margin-top: 40px;
+}
+
+/* TITLES */
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00d1b9;
+    margin-bottom: 20px;
+}
+
+.location-title {
+    margin-top: 25px;
+}
+
+/* LINKS */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
+/* ADDRESS */
+.footer-address {
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* DIVIDER */
+.footer-divider {
+    margin-top: 50px;
+    border: 0;
+    height: 1px;
+    background: #c8c8c8;
+    opacity: 0.3;
+}
+
+/* COPYRIGHT */
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    opacity: 0.9;
+}
